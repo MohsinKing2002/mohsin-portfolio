@@ -1,4 +1,5 @@
 import React from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import styled from "styled-components";
 
 const Document = styled.img`
@@ -166,7 +167,11 @@ const ExperienceCard = ({ experience }) => {
               href={experience.website}
               target="new"
             >
-              <Company>{experience.company}</Company>
+              <Company>
+                {experience.company}
+
+                <FaExternalLinkAlt style={{ marginLeft: "6px" }} size={14} />
+              </Company>
             </a>
           )}
           <Date>{experience.date}</Date>
