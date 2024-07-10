@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mohsin-portfolio/static/css/main.27e3b972.css",
-    "main.js": "/mohsin-portfolio/static/js/main.317be71c.js",
+    "main.js": "/mohsin-portfolio/static/js/main.65576b0d.js",
     "static/media/movie.png": "/mohsin-portfolio/static/media/movie.8fa380ccbce2f2822a7d.png",
     "static/media/internship.jpg": "/mohsin-portfolio/static/media/internship.1b3d888f1621d1d2b15b.jpg",
     "static/media/quiz.png": "/mohsin-portfolio/static/media/quiz.a734d7f22c2f2777f101.png",
@@ -25,23 +25,24 @@
     "static/media/native.png": "/mohsin-portfolio/static/media/native.5c6143b65cae0922213b.png",
     "static/media/bootstrap.jpg": "/mohsin-portfolio/static/media/bootstrap.6d2d0128b0c02a24c19d.jpg",
     "static/media/sk.jpeg": "/mohsin-portfolio/static/media/sk.1e8e63d2d84703bd6203.jpeg",
+    "static/media/hs.png": "/mohsin-portfolio/static/media/hs.26e7196af73f104cdc9b.png",
     "static/media/vs.jpg": "/mohsin-portfolio/static/media/vs.7312feb25c94fda2f4a0.jpg",
-    "static/media/firebase.png": "/mohsin-portfolio/static/media/firebase.95758a8c22e008a95c48.png",
     "static/media/js.png": "/mohsin-portfolio/static/media/js.f59e4b5bba53fed177f2.png",
     "static/media/mysql.png": "/mohsin-portfolio/static/media/mysql.5deda07826ac728058c7.png",
     "static/media/css.png": "/mohsin-portfolio/static/media/css.32061e347ac541780a96.png",
     "static/media/python.png": "/mohsin-portfolio/static/media/python.5e7be001a744c65cfc48.png",
     "static/media/postman.png": "/mohsin-portfolio/static/media/postman.5566153af830a9b5148e.png",
+    "static/media/mp.png": "/mohsin-portfolio/static/media/mp.384e85e8a4bfc41208eb.png",
     "static/media/java.png": "/mohsin-portfolio/static/media/java.a0c4af3d7cd2f0ca5d51.png",
     "static/media/react.png": "/mohsin-portfolio/static/media/react.ffd2a453860d0103da0e.png",
-    "static/media/paper.jpg": "/mohsin-portfolio/static/media/paper.eae4a5021cfd8dbd4978.jpg",
+    "static/media/aliah.png": "/mohsin-portfolio/static/media/aliah.8cba00787cb810abe0c5.png",
     "static/media/mongo.png": "/mohsin-portfolio/static/media/mongo.57d1d1aafe0fb695f89b.png",
     "index.html": "/mohsin-portfolio/index.html",
     "main.27e3b972.css.map": "/mohsin-portfolio/static/css/main.27e3b972.css.map",
-    "main.317be71c.js.map": "/mohsin-portfolio/static/js/main.317be71c.js.map"
+    "main.65576b0d.js.map": "/mohsin-portfolio/static/js/main.65576b0d.js.map"
   },
   "entrypoints": [
     "static/css/main.27e3b972.css",
-    "static/js/main.317be71c.js"
+    "static/js/main.65576b0d.js"
   ]
 }
