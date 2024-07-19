@@ -216,6 +216,16 @@ export const IconContainer = styled.div`
   }
 `;
 
+const LinkedInIcon = styled.a`
+  display: inline-block;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
 const Index = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
   const [open, setOpen] = React.useState(false);
@@ -258,13 +268,9 @@ const Index = ({ openModal, setOpenModal }) => {
                   <Member key={index}>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
-                    <a
-                      href={member.linkedin}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
+                    <LinkedInIcon href={member.linkedin} target="display">
                       <LinkedIn />
-                    </a>
+                    </LinkedInIcon>
                   </Member>
                 ))}
               </Members>
