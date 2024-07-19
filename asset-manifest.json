@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mohsin-portfolio/static/css/main.27e3b972.css",
-    "main.js": "/mohsin-portfolio/static/js/main.65576b0d.js",
+    "main.js": "/mohsin-portfolio/static/js/main.6322cb83.js",
     "static/media/movie.png": "/mohsin-portfolio/static/media/movie.8fa380ccbce2f2822a7d.png",
     "static/media/internship.jpg": "/mohsin-portfolio/static/media/internship.1b3d888f1621d1d2b15b.jpg",
     "static/media/quiz.png": "/mohsin-portfolio/static/media/quiz.a734d7f22c2f2777f101.png",
     "static/media/codehelp.jpeg": "/mohsin-portfolio/static/media/codehelp.a05a5282f3b515ed1961.jpeg",
-    "static/media/shopping.jpeg": "/mohsin-portfolio/static/media/shopping.a6c4a279cbfa1e7dbc05.jpeg",
     "static/media/connect.jpeg": "/mohsin-portfolio/static/media/connect.99cc8184bbc1d79c2e63.jpeg",
     "static/media/burger.png": "/mohsin-portfolio/static/media/burger.f3e230b2c44c54cb9669.png",
+    "static/media/shopping.jpeg": "/mohsin-portfolio/static/media/shopping.6ab7911bdb2442bad4a3.jpeg",
     "static/media/redux.png": "/mohsin-portfolio/static/media/redux.8187b2c97902cc520130.png",
     "static/media/dp.png": "/mohsin-portfolio/static/media/dp.a1e3144a662e155edcc7.png",
     "static/media/social.png": "/mohsin-portfolio/static/media/social.3b73cf9d524fc1f9d0be.png",
@@ -39,10 +39,10 @@
     "static/media/mongo.png": "/mohsin-portfolio/static/media/mongo.57d1d1aafe0fb695f89b.png",
     "index.html": "/mohsin-portfolio/index.html",
     "main.27e3b972.css.map": "/mohsin-portfolio/static/css/main.27e3b972.css.map",
-    "main.65576b0d.js.map": "/mohsin-portfolio/static/js/main.65576b0d.js.map"
+    "main.6322cb83.js.map": "/mohsin-portfolio/static/js/main.6322cb83.js.map"
   },
   "entrypoints": [
     "static/css/main.27e3b972.css",
-    "static/js/main.65576b0d.js"
+    "static/js/main.6322cb83.js"
   ]
 }
