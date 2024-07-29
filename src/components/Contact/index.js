@@ -213,24 +213,24 @@ const Contact = () => {
           <ContactInput
             type="text"
             required
-            placeholder="Mohsin King"
+            placeholder="Enter your name"
             name="name"
           />
           <ContactInput
             type="email"
             required
-            placeholder="mohsin@gmail.com"
+            placeholder="Enter your email"
             name="email"
           />
           <ContactInput
             type="text"
             required
-            placeholder="Subject"
+            placeholder="Write a subject"
             name="subject"
           />
           <ContactInputMessage
             required
-            placeholder="Message"
+            placeholder="Write your message/query/feedback"
             rows="4"
             name="message"
           />
