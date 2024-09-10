@@ -15,7 +15,7 @@ import {
   ThemeContainer,
 } from "./NavbarStyledComponent";
 import { MdOutlineDarkMode, MdOutlineWbSunny } from "react-icons/md";
-import { FaBars, FaFreeCodeCamp } from "react-icons/fa";
+import { FaBars, FaCodeBranch } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Bio } from "../../data/constants";
 import { Close, CloseRounded } from "@mui/icons-material";
@@ -35,9 +35,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               alignItems: "center",
               color: "white",
               cursor: "pointer",
+              flexShrink: 0,
             }}
           >
-            <FaFreeCodeCamp size="2rem" /> <Span>Mohsin R.</Span>
+            <FaCodeBranch size="1rem" /> <Span>Mohsin R.</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -59,6 +60,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
+          <NavLink href="#achievements">Achievements</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#contact">Contact</NavLink>
@@ -97,6 +99,14 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               }}
             >
               Experience
+            </MobileLink>
+            <MobileLink
+              href="#achievements"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Achievements
             </MobileLink>
             <MobileLink
               href="#projects"

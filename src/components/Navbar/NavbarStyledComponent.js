@@ -54,7 +54,10 @@ export const NavItems = styled.ul`
   padding: 0 6px;
   list-style: none;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1020px) {
+    gap: 20px;
+  }
+  @media screen and (max-width: 960px) {
     display: none;
   }
 `;
@@ -89,7 +92,7 @@ export const ThemeContainer = styled.div`
   font-size: 1.4rem;
   transition: all 0.6s ease-in-out;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 960px) {
     border: 1.8px solid ${({ theme }) => theme.primary + 99};
     font-size: 1.2rem;
     margin-right: 40px;
@@ -126,14 +129,14 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 960px) {
     display: none;
   }
 `;
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 960px) {
     display: block;
     position: absolute;
     top: 6px;
