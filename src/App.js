@@ -15,6 +15,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import ScrollButton from "./components/ScrollButton/index.jsx";
 import styled from "styled-components";
+import Achievements from "./components/Achievements/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,6 +51,7 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          <Achievements />
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />

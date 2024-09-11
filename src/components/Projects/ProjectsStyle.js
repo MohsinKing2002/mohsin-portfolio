@@ -13,6 +13,7 @@ export const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
+  margin-top: 7rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
 `;
 
