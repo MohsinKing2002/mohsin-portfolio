@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/mohsin-portfolio/static/css/main.27e3b972.css",
-    "main.js": "/mohsin-portfolio/static/js/main.b4c3f2ea.js",
+    "main.js": "/mohsin-portfolio/static/js/main.bff29c21.js",
     "static/media/internship.jpg": "/mohsin-portfolio/static/media/internship.1b3d888f1621d1d2b15b.jpg",
+    "static/media/LC_75_2.gif": "/mohsin-portfolio/static/media/LC_75_2.1f432b42c483936eb584.gif",
+    "static/media/LC_75_1.gif": "/mohsin-portfolio/static/media/LC_75_1.b5e5677f7980d33f3d3e.gif",
     "static/media/quiz.png": "/mohsin-portfolio/static/media/quiz.a734d7f22c2f2777f101.png",
     "static/media/codehelp.jpeg": "/mohsin-portfolio/static/media/codehelp.a05a5282f3b515ed1961.jpeg",
     "static/media/connect.jpeg": "/mohsin-portfolio/static/media/connect.99cc8184bbc1d79c2e63.jpeg",
@@ -11,14 +13,24 @@
     "static/media/redux.png": "/mohsin-portfolio/static/media/redux.8187b2c97902cc520130.png",
     "static/media/dp.png": "/mohsin-portfolio/static/media/dp.a1e3144a662e155edcc7.png",
     "static/media/social.png": "/mohsin-portfolio/static/media/social.3b73cf9d524fc1f9d0be.png",
+    "static/media/cont_L4.png": "/mohsin-portfolio/static/media/cont_L4.81a727ff5104453f61f6.png",
+    "static/media/cont_L2.png": "/mohsin-portfolio/static/media/cont_L2.0da598f3ac03d811b102.png",
+    "static/media/cont_L1.png": "/mohsin-portfolio/static/media/cont_L1.5c1bfcfc2b0da8a6e951.png",
+    "static/media/cont_L3.png": "/mohsin-portfolio/static/media/cont_L3.409d749a21c224050f59.png",
     "static/media/figma.png": "/mohsin-portfolio/static/media/figma.7a5b48cdafb06b8bd52b.png",
     "static/media/mohsin.png": "/mohsin-portfolio/static/media/mohsin.77a8bad9cad39b4e82d1.png",
+    "static/media/gfg_dsa.png": "/mohsin-portfolio/static/media/gfg_dsa.c9c7f6fb08ded53ab2c6.png",
     "static/media/cpp.png": "/mohsin-portfolio/static/media/cpp.c2588e48510b0339d490.png",
-    "static/media/flask.png": "/mohsin-portfolio/static/media/flask.4504158eb90a849473f5.png",
-    "static/media/html.png": "/mohsin-portfolio/static/media/html.87ec4ca091a507e14a7f.png",
+    "static/media/backend_google.png": "/mohsin-portfolio/static/media/backend_google.d93a321f6c2cb04d90a2.png",
+    "static/media/backend_ms.png": "/mohsin-portfolio/static/media/backend_ms.a76dac9c3f74274b7681.png",
+    "static/media/algorithm_2.png": "/mohsin-portfolio/static/media/algorithm_2.f795d5573e12cd05e002.png",
+    "static/media/pull_shark.png": "/mohsin-portfolio/static/media/pull_shark.44fc2e9e56f635ec8ec9.png",
+    "static/media/algorithm_1.png": "/mohsin-portfolio/static/media/algorithm_1.6ff7a37bb095de400f5b.png",
     "static/media/canva.png": "/mohsin-portfolio/static/media/canva.fbd8b44ff82c009b6962.png",
     "static/media/note.png": "/mohsin-portfolio/static/media/note.1dfedbfd189a49c07735.png",
+    "static/media/DS_1.png": "/mohsin-portfolio/static/media/DS_1.d39fbf2b6ff738a171dd.png",
     "static/media/crypto.png": "/mohsin-portfolio/static/media/crypto.b727167f030427440388.png",
+    "static/media/yolo.png": "/mohsin-portfolio/static/media/yolo.28c64ec531eb0171bb6a.png",
     "static/media/linux.png": "/mohsin-portfolio/static/media/linux.3d04571c2324a9b79d9d.png",
     "static/media/native.png": "/mohsin-portfolio/static/media/native.5c6143b65cae0922213b.png",
     "static/media/bootstrap.jpg": "/mohsin-portfolio/static/media/bootstrap.6d2d0128b0c02a24c19d.jpg",
@@ -27,7 +39,6 @@
     "static/media/vs.jpg": "/mohsin-portfolio/static/media/vs.7312feb25c94fda2f4a0.jpg",
     "static/media/js.png": "/mohsin-portfolio/static/media/js.f59e4b5bba53fed177f2.png",
     "static/media/mysql.png": "/mohsin-portfolio/static/media/mysql.5deda07826ac728058c7.png",
-    "static/media/css.png": "/mohsin-portfolio/static/media/css.32061e347ac541780a96.png",
     "static/media/python.png": "/mohsin-portfolio/static/media/python.5e7be001a744c65cfc48.png",
     "static/media/postman.png": "/mohsin-portfolio/static/media/postman.5566153af830a9b5148e.png",
     "static/media/mp.png": "/mohsin-portfolio/static/media/mp.384e85e8a4bfc41208eb.png",
@@ -37,10 +48,10 @@
     "static/media/mongo.png": "/mohsin-portfolio/static/media/mongo.57d1d1aafe0fb695f89b.png",
     "index.html": "/mohsin-portfolio/index.html",
     "main.27e3b972.css.map": "/mohsin-portfolio/static/css/main.27e3b972.css.map",
-    "main.b4c3f2ea.js.map": "/mohsin-portfolio/static/js/main.b4c3f2ea.js.map"
+    "main.bff29c21.js.map": "/mohsin-portfolio/static/js/main.bff29c21.js.map"
   },
   "entrypoints": [
     "static/css/main.27e3b972.css",
-    "static/js/main.b4c3f2ea.js"
+    "static/js/main.bff29c21.js"
   ]
 }
