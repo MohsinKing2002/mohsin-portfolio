@@ -93,7 +93,7 @@ const SkillTitle = styled.h2`
   font-size: 30px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-align: center;
 `;
 
@@ -125,7 +125,7 @@ const SkillItem = styled.div`
 `;
 
 const Image = styled.img`
-  height: 45px;
+  height: 40px;
   border-radius: 10px;
 `;
 
@@ -136,7 +136,7 @@ const Body = styled.div`
 `;
 
 const Role = styled.div`
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary + 99};
   @media only screen and (max-width: 768px) {
@@ -153,6 +153,31 @@ const Date = styled.div`
   }
 `;
 
+const SkillComponent = ({ item }) => {
+  return (
+    <SkillItem>
+      <Image src={item.image} />
+      <Body>
+        <Role>{item.title}</Role>
+        <Date>{item.date}</Date>
+      </Body>
+
+      {item.link && (
+        <a
+          style={{
+            textDecoration: "none",
+            position: "absolute",
+            top: "2.7rem",
+            right: "0.4rem",
+          }}
+        >
+          <FaExternalLinkAlt style={{ marginLeft: "6px" }} size={16} />
+        </a>
+      )}
+    </SkillItem>
+  );
+};
+
 const Achievements = () => {
   return (
     <Container id="achievements">
@@ -166,31 +191,19 @@ const Achievements = () => {
               <SkillTitle>{achievement.title}</SkillTitle>
               <SkillList>
                 {achievement.badges.map((item, ind) => (
-                  <SkillItem key={ind}>
-                    <Image src={item.image} />
-                    <Body>
-                      <Role>{item.title}</Role>
-                      <Date>{item.date}</Date>
-                    </Body>
-
-                    {item.link && (
+                  <>
+                    {item?.link ? (
                       <a
-                        style={{
-                          textDecoration: "none",
-                          position: "absolute",
-                          top: "3rem",
-                          right: "0.4rem",
-                        }}
+                        style={{ textDecoration: "none" }}
                         href={item.link}
                         target="new"
                       >
-                        <FaExternalLinkAlt
-                          style={{ marginLeft: "6px" }}
-                          size={16}
-                        />
+                        <SkillComponent key={ind} item={item} />
                       </a>
+                    ) : (
+                      <SkillComponent key={ind} item={item} />
                     )}
-                  </SkillItem>
+                  </>
                 ))}
               </SkillList>
             </Skill>

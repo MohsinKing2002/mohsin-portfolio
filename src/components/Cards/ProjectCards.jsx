@@ -29,8 +29,8 @@ const Card = styled.div`
   gap: 14px;
   transition: all 0.5s ease-in-out;
   &:hover {
-    transform: translateY(-8px);
-    filter: brightness(1.1);
+    transform: scale(1.04);
+    filter: brightness(1.2);
   }
   &:hover ${Button} {
     display: block;

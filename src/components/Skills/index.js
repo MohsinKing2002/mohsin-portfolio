@@ -92,7 +92,7 @@ const SkillTitle = styled.h2`
   font-size: 30px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-align: center;
 `;
 
