@@ -4,36 +4,36 @@ name: Automatic Deployment
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    #checkout using github checkout
-    - name: Github checkout
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: false
+      #checkout using github checkout
+      - name: Github checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
-    #install node js
-    -name: Install Node Js
-     uses: actions/setup-node@v4
-     with:
-      node-version: '20.x'
-    
-    #install the dependecies
-    -name: Install Dependencies
-     run: npm install
+      #install node js
+      - name: Install Node Js
+        uses: actions/setup-node@v4
+        with:
+        node-version: "20.x"
 
-    #create a production build
-    -name: Create a Build 
-     run: npm run build
+      #install the dependecies
+      - name: Install Dependencies
+        run: npm install
 
-    #deploy the changes
-    -name: Deploy Changes
-     run: npm run deploy
+      #create a production build
+      - name: Create a Build
+        run: npm run build
 
-    #show success message
-    -name: Success Message
-     run: echo 'Changes are deployed :)'
+      #deploy the changes
+      - name: Deploy Changes
+        run: npm run deploy
+
+      #show success message
+      - name: Success Message
+        run: echo 'Changes are deployed :)'
