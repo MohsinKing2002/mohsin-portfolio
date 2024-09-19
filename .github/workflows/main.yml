@@ -22,6 +22,11 @@ jobs:
         with:
           node-version: "20.x"
 
+      #Create the Data file
+      - name: Create constants.js file
+        run: |
+          echo "${{ secrets.PROJECT_DATA }}" > ./src/data/constants.js
+
       #install the dependecies
       - name: Install Dependencies
         run: npm install
