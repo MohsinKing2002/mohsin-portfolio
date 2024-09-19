@@ -22,9 +22,14 @@ jobs:
         with:
           node-version: "20.x"
 
-      #Create the Data file
+      # Create the 'src/data' folder if it doesn't exist
+      - name: Create src/data folder
+        run: mkdir -p ./src/data
+
+      # Write the content of the constants.js file
       - name: Create constants.js file
-        run: echo "${{ secrets.PROJECT_DATA }}" > ./src/data/constants.js
+        run: |
+          echo "${{ secrets.PROJECT_DATA }}" > ./src/data/constants.js
 
       #install the dependecies
       - name: Install Dependencies
