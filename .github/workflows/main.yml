@@ -24,8 +24,7 @@ jobs:
 
       #Create the Data file
       - name: Create constants.js file
-        run: |
-          echo "${{ secrets.PROJECT_DATA }}" > ./src/data/constants.js
+        run: echo "${{ secrets.PROJECT_DATA }}" > ./src/data/constants.js
 
       #install the dependecies
       - name: Install Dependencies
