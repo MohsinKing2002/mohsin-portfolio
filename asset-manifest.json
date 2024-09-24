@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mohsin-portfolio/static/css/main.27e3b972.css",
-    "main.js": "/mohsin-portfolio/static/js/main.d5285c14.js",
+    "main.js": "/mohsin-portfolio/static/js/main.04d82b8f.js",
     "static/media/internship.jpg": "/mohsin-portfolio/static/media/internship.1b3d888f1621d1d2b15b.jpg",
     "static/media/quiz.png": "/mohsin-portfolio/static/media/quiz.a734d7f22c2f2777f101.png",
     "static/media/codehelp.jpeg": "/mohsin-portfolio/static/media/codehelp.a05a5282f3b515ed1961.jpeg",
@@ -17,6 +17,7 @@
     "static/media/cont_L3.png": "/mohsin-portfolio/static/media/cont_L3.409d749a21c224050f59.png",
     "static/media/figma.png": "/mohsin-portfolio/static/media/figma.7a5b48cdafb06b8bd52b.png",
     "static/media/mohsin.png": "/mohsin-portfolio/static/media/mohsin.77a8bad9cad39b4e82d1.png",
+    "static/media/codevita.png": "/mohsin-portfolio/static/media/codevita.67688e64552c996c88dc.png",
     "static/media/gfg_dsa.png": "/mohsin-portfolio/static/media/gfg_dsa.c9c7f6fb08ded53ab2c6.png",
     "static/media/cpp.png": "/mohsin-portfolio/static/media/cpp.c2588e48510b0339d490.png",
     "static/media/backend_google.png": "/mohsin-portfolio/static/media/backend_google.d93a321f6c2cb04d90a2.png",
@@ -49,10 +50,10 @@
     "static/media/mongo.png": "/mohsin-portfolio/static/media/mongo.57d1d1aafe0fb695f89b.png",
     "index.html": "/mohsin-portfolio/index.html",
     "main.27e3b972.css.map": "/mohsin-portfolio/static/css/main.27e3b972.css.map",
-    "main.d5285c14.js.map": "/mohsin-portfolio/static/js/main.d5285c14.js.map"
+    "main.04d82b8f.js.map": "/mohsin-portfolio/static/js/main.04d82b8f.js.map"
   },
   "entrypoints": [
     "static/css/main.27e3b972.css",
-    "static/js/main.d5285c14.js"
+    "static/js/main.04d82b8f.js"
   ]
 }
