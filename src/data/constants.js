@@ -288,6 +288,41 @@ export const achievements = [
     ],
   },
 
+  //certifications
+  {
+    title: "Certificates",
+    badges: [
+      {
+        id: 0,
+        title: "CodeVita Session XI",
+        date: "March 2024",
+        image: require("../images/achievements/certificates/codevita.png"),
+        link: "https://drive.google.com/file/d/1SQDRu9Kqx29M3vEqvHjJ_h430ytwt7DY/view?usp=sharing",
+      },
+      {
+        id: 1,
+        title: "GFG DSA Bootcamp",
+        date: "Oct 2022",
+        image: require("../images/achievements/certificates/gfg_dsa.png"),
+        link: "https://drive.google.com/file/d/1zXJToZW5N73hGFdgyg5nQqoRBTwSyrYk/view?usp=sharing",
+      },
+      {
+        id: 2,
+        title: "Back-End Development",
+        date: "Sept 2022",
+        image: require("../images/achievements/certificates/backend_google.png"),
+        link: "https://drive.google.com/file/d/1P21CYfjKoSs1LeKlqmRqhVsVgDywaDVG/view?usp=sharing",
+      },
+      {
+        id: 3,
+        title: "Back-End Development",
+        date: "Sept 2022",
+        image: require("../images/achievements/certificates/backend_ms.png"),
+        link: "https://drive.google.com/file/d/1P5cdMND78wdD8-1I1fplwRwOsnT_13Db/view?usp=sharing",
+      },
+    ],
+  },
+
   //hactober fest
   {
     title: "Hacktoberfest 2022",
@@ -354,34 +389,6 @@ export const achievements = [
         date: "19th Apr 2024",
         image: require("../images/achievements/github/pull_shark.png"),
         link: null,
-      },
-    ],
-  },
-
-  //certifications
-  {
-    title: "Certificates",
-    badges: [
-      {
-        id: 1,
-        title: "GFG DSA Bootcamp",
-        date: "Oct 2022",
-        image: require("../images/achievements/certificates/gfg_dsa.png"),
-        link: "https://drive.google.com/file/d/1zXJToZW5N73hGFdgyg5nQqoRBTwSyrYk/view?usp=sharing",
-      },
-      {
-        id: 2,
-        title: "Back-End Development",
-        date: "Sept 2022",
-        image: require("../images/achievements/certificates/backend_google.png"),
-        link: "https://drive.google.com/file/d/1P21CYfjKoSs1LeKlqmRqhVsVgDywaDVG/view?usp=sharing",
-      },
-      {
-        id: 3,
-        title: "Back-End Development",
-        date: "Sept 2022",
-        image: require("../images/achievements/certificates/backend_ms.png"),
-        link: "https://drive.google.com/file/d/1P5cdMND78wdD8-1I1fplwRwOsnT_13Db/view?usp=sharing",
       },
     ],
   },
