@@ -2,8 +2,8 @@ name: Auto Deployment
 
 on:
   push:
-     branches:
-     - main
+    branches:
+      - master
 
 jobs:
   build-n-deploy:
@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-      
+
       - name: Install Node Js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
-      
+          node-version: "16"
+
       - name: Install Dependencies
         run: npm install
 
