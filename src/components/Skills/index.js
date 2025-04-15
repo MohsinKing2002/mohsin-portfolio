@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Descriptions, skills } from "../../data/constants";
-import HeroBgAnimation from "../HeroBgAnimation";
 
 const Container = styled.div`
   display: flex;
@@ -108,7 +107,6 @@ const SkillItem = styled.div`
   font-size: 18px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
-  border: 1px solid ${({ theme }) => theme.text_primary + 30};
   border-radius: 12px;
   padding: 12px 20px;
   display: flex;
@@ -117,12 +115,9 @@ const SkillItem = styled.div`
   gap: 10px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  &:hover {
-    filter: brightness(1.1);
-    // border: 1px solid ${({ theme }) => theme.primary + 90};
-    border: 0.1px solid #524a61;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  }
+  filter: brightness(1.1);
+  border: 0.1px solid #524a61;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

@@ -1,13 +1,13 @@
 export const Bio = {
   name: "Mohsin Raja",
   roles: [
-    "Aspiring Software Engineer",
+    "Aspiring DevSecOps Engineer",
+    "Integration Engineer",
     "MERN Developer",
     "C++ Programmer",
-    "React Native Developer",
   ],
   description:
-    "I am a Full Stack MERN Developer with expertise in C++ and DSA. I love solving problems and building amazing projects. I am self-motivated and dedicated to delivering high-quality results and eager to learn new technologies. With a positive attitude, I am ready to take on challenges and make valuable contributions.",
+    "I’m an Integration Engineer with expertise in CI/CD pipelines, Docker, GitLab CI/CD, Jenkins, and Groovy. I also have hands-on experience with the MERN stack, along with a solid background in C++, DSA, and software development. I focus on automating workflows, improving system integrations, and building efficient web solutions. I’m proactive, adaptable, and deliver quality work.",
   resume:
     "https://drive.google.com/file/d/19iv-BhcA66RW8sUIFyuSDkEceHtjxngL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/md-mohsin-raja-628370244/",
@@ -18,6 +18,35 @@ export const Bio = {
 
 export const skills = [
   {
+    title: "DevOps",
+    skills: [
+      {
+        name: "Gitlab CI/CD",
+        image: require("../images/skills/devops/Gitlab.png"),
+      },
+      {
+        name: "Docker",
+        image: require("../images/skills/devops/Docker.png"),
+      },
+      {
+        name: "Jenkins",
+        image: require("../images/skills/devops/Jenkins.png"),
+      },
+      {
+        name: "Groovy",
+        image: require("../images/skills/devops/Groovy.png"),
+      },
+      {
+        name: "Shell Script",
+        image: require("../images/skills/devops/Shell.png"),
+      },
+      {
+        name: "Sonarqube",
+        image: require("../images/skills/devops/SQ.png"),
+      },
+    ],
+  },
+  {
     title: "Frontend",
     skills: [
       {
@@ -27,10 +56,6 @@ export const skills = [
       {
         name: "Next Js",
         image: require("../images/skills/frontend/next.png"),
-      },
-      {
-        name: "React Native",
-        image: require("../images/skills/cross/native.png"),
       },
       {
         name: "Expo",
@@ -87,6 +112,10 @@ export const skills = [
         image: require("../images/skills/frontend/js.png"),
       },
       {
+        name: "TypeScript",
+        image: require("../images/skills/frontend/Ts.png"),
+      },
+      {
         name: "Data Structures",
         image: require("../images/achievements/lc/DS_1.png"),
       },
@@ -97,10 +126,6 @@ export const skills = [
       {
         name: "Java",
         image: require("../images/skills/cross/java.png"),
-      },
-      {
-        name: "Python",
-        image: require("../images/skills/cross/python.png"),
       },
       // {
       //   name: "HTML",
@@ -153,7 +178,7 @@ export const Descriptions = {
   experience:
     "My path as a software engineer, contributing to various companies and exciting projects.",
   achievement:
-    "Highlighting my Hacktoberfest 2022 contributions, GitHub and LeetCode badges, and certifications in DSA and Backend Development.",
+    "Highlighting my Hacktoberfest 2022 contributions and certifications in DSA and Backend Development.",
   project:
     "Discover a diverse array of projects, ranging from dynamic web applications to innovative Android apps.",
   education:
@@ -214,7 +239,7 @@ export const experiences = [
     ],
     doc: {
       img: require("../images/docs/internship.jpg"),
-      link: "https://drive.google.com/file/d/1Slmu4s0jl5doK4BMKKej8SOYs09gmjKt/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1Slmu4s0jl5doK4BMKKej8SOYs09gmjKt/view?pli=1",
     },
   },
   {
@@ -225,16 +250,17 @@ export const experiences = [
     website: "https://www.tcs.com/",
     date: "25th Jul 2024 - Present",
     projects: ["Kingfisher PLC"],
-    desc: "I'm working as a Integration/Platform Engineer, responsible for designing CI/CD pipeline, writing automation scripts etc.",
+    desc: "As an Integration Engineer, I’m involved in migrating CI/CD pipelines from Jenkins to GitLab CI, collaborating with teams to design efficient workflows. I write automation scripts in Bash, Groovy, and YAML to streamline build and deployment processes. I also handle validation, modification, and deployment of manifest files in Tyk API Gateway for API creation. My role includes troubleshooting pipeline issues, optimizing performance, and maintaining documentation. This experience has strengthened my skills in CI/CD, Docker, Automation, and API management in a collaborative environment.",
     skills: [
       "Azure DevOps",
-      "Git Lab",
+      "Gitlab",
       "CI/CD Pipeline",
       "Docker",
       "Kubernates (K8s)",
-      "GO",
       "Groovy",
-      "Ansible",
+      "Jenkins",
+      "Shell Scripting",
+      "Unit Testing",
     ],
     doc: "",
   },
@@ -242,53 +268,53 @@ export const experiences = [
 
 export const achievements = [
   //leetcode
-  {
-    title: "LeetCode Badges",
-    badges: [
-      {
-        id: 4,
-        title: "LC 75 Level 2",
-        date: "26th Sept 2022",
-        image: require("../images/achievements/lc/LC_75_2.png"),
-        link: null,
-      },
-      {
-        id: 5,
-        title: "LC 75 Level 1",
-        date: "17th Aug 2022",
-        image: require("../images/achievements/lc/LC_75_1.png"),
-        link: null,
-      },
-      {
-        id: 6,
-        title: "Algorithm II",
-        date: "5th Sept 2022",
-        image: require("../images/achievements/lc/algorithm_2.png"),
-        link: null,
-      },
-      {
-        id: 7,
-        title: "Algorithm I",
-        date: "14th Aug 2022",
-        image: require("../images/achievements/lc/algorithm_1.png"),
-        link: null,
-      },
-      {
-        id: 8,
-        title: "Data Structure I",
-        date: "20th Sept 2022",
-        image: require("../images/achievements/lc/DS_1.png"),
-        link: null,
-      },
-      {
-        id: 9,
-        title: "50 Days 2024",
-        date: "10th Sept 2024",
-        image: require("../images/achievements/lc/50Qs_2024.png"),
-        link: null,
-      },
-    ],
-  },
+  // {
+  //   title: "LeetCode Badges",
+  //   badges: [
+  //     {
+  //       id: 4,
+  //       title: "LC 75 Level 2",
+  //       date: "26th Sept 2022",
+  //       image: require("../images/achievements/lc/LC_75_2.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 5,
+  //       title: "LC 75 Level 1",
+  //       date: "17th Aug 2022",
+  //       image: require("../images/achievements/lc/LC_75_1.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 6,
+  //       title: "Algorithm II",
+  //       date: "5th Sept 2022",
+  //       image: require("../images/achievements/lc/algorithm_2.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 7,
+  //       title: "Algorithm I",
+  //       date: "14th Aug 2022",
+  //       image: require("../images/achievements/lc/algorithm_1.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 8,
+  //       title: "Data Structure I",
+  //       date: "20th Sept 2022",
+  //       image: require("../images/achievements/lc/DS_1.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 9,
+  //       title: "50 Days 2024",
+  //       date: "10th Sept 2024",
+  //       image: require("../images/achievements/lc/50Qs_2024.png"),
+  //       link: null,
+  //     },
+  //   ],
+  // },
 
   //certifications
   {
@@ -310,14 +336,14 @@ export const achievements = [
       },
       {
         id: 2,
-        title: "Back-End Development",
+        title: "Back-End GDSC",
         date: "Sept 2022",
         image: require("../images/achievements/certificates/backend_google.png"),
         link: "https://drive.google.com/file/d/1P21CYfjKoSs1LeKlqmRqhVsVgDywaDVG/view?usp=sharing",
       },
       {
         id: 3,
-        title: "Back-End Development",
+        title: "Back-End MLSA",
         date: "Sept 2022",
         image: require("../images/achievements/certificates/backend_ms.png"),
         link: "https://drive.google.com/file/d/1P5cdMND78wdD8-1I1fplwRwOsnT_13Db/view?usp=sharing",
@@ -329,13 +355,13 @@ export const achievements = [
   {
     title: "Hacktoberfest 2022",
     badges: [
-      // {
-      //   id: 0,
-      //   title: "Registration Badge",
-      //   date: "25th Oct 2022",
-      //   image: require("../images/achievements/hf_22/hf_reg.png"),
-      //   link: "https://www.holopin.io/userbadge/cl9ojs4vj226008l45pp0gfmj",
-      // },
+      {
+        id: 0,
+        title: "Registration Badge",
+        date: "25th Oct 2022",
+        image: require("../images/achievements/hf_22/hf_reg.png"),
+        link: "https://www.holopin.io/userbadge/cl9ojs4vj226008l45pp0gfmj",
+      },
       {
         id: 1,
         title: "HF'22: Level 1",
@@ -364,36 +390,36 @@ export const achievements = [
         image: require("../images/achievements/hf_22/cont_L4.png"),
         link: "https://www.holopin.io/@mohsinking2002#",
       },
-      // {
-      //   id: 5,
-      //   title: "Surfer Moby Dock",
-      //   date: "4th Dec 2022",
-      //   image: require("../images/achievements/hf_22/docker.png"),
-      //   link: "https://www.holopin.io/userbadge/cla25nnev1075808l0vsc7ovsz",
-      // },
+      {
+        id: 5,
+        title: "Surfer Moby Dock",
+        date: "4th Dec 2022",
+        image: require("../images/achievements/hf_22/docker.png"),
+        link: "https://www.holopin.io/userbadge/cla25nnev1075808l0vsc7ovsz",
+      },
     ],
   },
 
-  //github
-  {
-    title: "GitHub Badges",
-    badges: [
-      {
-        id: 1,
-        title: "Pull Shark Badge",
-        date: "18th Oct 2022",
-        image: require("../images/achievements/github/yolo.png"),
-        link: null,
-      },
-      {
-        id: 2,
-        title: "YOLO Badge",
-        date: "19th Apr 2024",
-        image: require("../images/achievements/github/pull_shark.png"),
-        link: null,
-      },
-    ],
-  },
+  // //github
+  // {
+  //   title: "GitHub Badges",
+  //   badges: [
+  //     {
+  //       id: 1,
+  //       title: "Pull Shark Badge",
+  //       date: "18th Oct 2022",
+  //       image: require("../images/achievements/github/yolo.png"),
+  //       link: null,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "YOLO Badge",
+  //       date: "19th Apr 2024",
+  //       image: require("../images/achievements/github/pull_shark.png"),
+  //       link: null,
+  //     },
+  //   ],
+  // },
 ];
 
 export const education = [

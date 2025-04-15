@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { achievements, Descriptions, skills } from "../../data/constants";
-import HeroBgAnimation from "../HeroBgAnimation";
+import { achievements, Descriptions } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -116,12 +115,10 @@ const SkillItem = styled.div`
   gap: 10px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  &:hover {
-    filter: brightness(1.1);
-    // border: 1px solid ${({ theme }) => theme.primary + 90};
-    border: 0.1px solid #524a61;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  }
+  filter: brightness(1.1);
+  // border: 1px solid ${({ theme }) => theme.primary + 90};
+  border: 0.1px solid #524a61;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 
 const Image = styled.img`
