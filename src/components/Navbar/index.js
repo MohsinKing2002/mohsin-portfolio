@@ -10,7 +10,6 @@ import {
   ButtonContainer,
   MobileIcon,
   MobileMenu,
-  MobileNavLogo,
   MobileLink,
   ThemeContainer,
 } from "./NavbarStyledComponent";
@@ -18,7 +17,6 @@ import { MdOutlineDarkMode, MdOutlineWbSunny } from "react-icons/md";
 import { FaBars, FaCodeBranch } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Bio } from "../../data/constants";
-import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 

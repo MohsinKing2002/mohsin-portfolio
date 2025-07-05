@@ -2,7 +2,6 @@ import styled from "styled-components";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TerminalIcon from "@mui/icons-material/Terminal";
 import { SiLeetcode } from "react-icons/si";
 
 import { Bio } from "../../data/constants";

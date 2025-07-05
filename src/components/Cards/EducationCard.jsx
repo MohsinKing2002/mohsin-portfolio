@@ -13,17 +13,6 @@ const Document = styled.img`
   }
 `;
 
-const Description = styled.div`
-  width: 100%;
-  font-size: 15px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 99};
-  margin-bottom: 10px;
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
-
 const Span = styled.span`
   overflow: hidden;
   display: -webkit-box;

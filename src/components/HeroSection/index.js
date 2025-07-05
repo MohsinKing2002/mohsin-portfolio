@@ -11,8 +11,6 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import { FiExternalLink } from "react-icons/fi";
