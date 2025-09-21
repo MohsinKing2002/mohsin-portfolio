@@ -1,0 +1,46 @@
+name: Deploy Portfolio Applicaton to Github pages.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-application:
+    runs-on: ubuntu-latest
+    outputs:
+      build-folder: ${{steps.upload.outputs.artifact}}
+    steps:
+      - name: Checkout the Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node jobs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Applicaton
+        run: npm run build
+
+      - name: Upload the Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build
+
+  deploy-application:
+    runs-on: ubuntu-latests
+    needs: build-application
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          publish_dir: ./build

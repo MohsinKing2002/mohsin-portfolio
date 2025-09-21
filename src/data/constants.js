@@ -7,7 +7,7 @@ export const Bio = {
     "C++ Programmer",
   ],
   description:
-    "I’m an Integration Engineer with expertise in CI/CD pipelines, Docker, GitLab CI/CD, Jenkins, and Groovy. I also have hands-on experience with the MERN stack, along with a solid background in C++, DSA, and software development. I focus on automating workflows, improving system integrations, and building efficient web solutions. I’m proactive, adaptable, and deliver quality work.",
+    "I’m a Platform Engineer with expertise in CI/CD pipelines, Docker, GitLab CI, Github Actions, Jenkins, Groovy and writing efficient Automation scripts. I also have hands-on experience with the MERN stack, along with a solid background in C++, DSA, and software development. I focus on automating workflows, improving system integrations, and building efficient web solutions. I’m proactive, adaptable, and deliver quality work.",
   resume:
     "https://drive.google.com/file/d/13uNoXbRYTVMGP3m19b7pA8A6wlcmJfe_/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/md-mohsin-raja-628370244/",
