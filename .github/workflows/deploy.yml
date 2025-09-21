@@ -2,9 +2,6 @@ name: Deploy Portfolio Applicaton to Github pages.
 
 on:
   workflow_dispatch:
-    branches:
-      - master
-      - github-ci
 
 jobs:
   build-application:
