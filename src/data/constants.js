@@ -1,3 +1,5 @@
+import { EmailJsCreds } from "./credentails";
+
 export const Bio = {
   name: "Md Mohsin Raja",
   roles: [
@@ -211,6 +213,7 @@ export const Descriptions = {
     "Don't hesitate to get in touch with me for inquiries or opportunities!",
 };
 
+// TODO: mention project, achievements etc
 export const experiences = [
   {
     id: 0,
@@ -476,11 +479,12 @@ export const education = [
 
 //Email js credentials
 export const EmailJs = {
-  service_id: "service_x3zj3rh",
-  template_id: "template_2lnjc5d",
-  public_key: "tsNsVXd2GlDXZOncQ",
+  service_id: EmailJsCreds.service_id,
+  template_id: EmailJsCreds.template_id,
+  public_key: EmailJsCreds.public_key,
 };
 
+// TODO: add devops project, and refactor all.
 //In project's have to fix the description
 export const projects = [
   /*

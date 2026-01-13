@@ -6,6 +6,7 @@
 .pnp.js
 
 /src/data
+/src/data/credentails.js
 
 # testing
 /coverage
