@@ -12,6 +12,7 @@ import {
   Span,
   SubTitle,
   ResumeButton,
+  BeforeTitle,
 } from "./HeroStyle";
 import { FiExternalLink } from "react-icons/fi";
 import HeroImg from "../../images/mohsin.png";
@@ -27,9 +28,8 @@ const HeroSection = () => {
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
-            <Title>
-              Hey, I am <br /> {Bio.name}
-            </Title>
+            <BeforeTitle>Hey, I am</BeforeTitle>
+            <Title>{Bio.name}</Title>
             <TextLoop>
               <Span>
                 <Typewriter

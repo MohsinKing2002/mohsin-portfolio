@@ -139,6 +139,17 @@ export const Title = styled.div`
   }
 `;
 
+export const BeforeTitle = styled.div`
+  font-weight: 500;
+  font-size: 35px;
+  color: #f2f3f4;
+  line-height: 40px;
+
+  @media (max-width: 640px) {
+    font-size: 25px;
+  }
+`;
+
 export const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
@@ -162,9 +173,10 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
-  margin-bottom: 42px;
+  margin-top: 5px;
+  margin-bottom: 45px;
   color: ${({ theme }) => theme.hero_text + 95};
 
   @media (max-width: 960px) {

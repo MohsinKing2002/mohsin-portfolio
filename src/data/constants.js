@@ -1,15 +1,15 @@
 export const Bio = {
-  name: "Mohsin Raja",
+  name: "Md Mohsin Raja",
   roles: [
-    "Aspiring DevSecOps Engineer",
-    "MERN Developer",
-    "React Native Developer",
-    "C++ Programmer",
+    "DevOps / Platform Engineer",
+    "Full Stack MERN Developer",
+    "CI/CD & Automation Engineer",
+    "Cloud & DevSecOps Enthusiast",
   ],
   description:
-    "I’m a Platform Engineer with expertise in CI/CD pipelines, Docker, GitLab CI, Github Actions, Jenkins, Groovy and writing efficient Automation scripts. I also have hands-on experience with the MERN stack, along with a solid background in C++, DSA, and software development. I focus on automating workflows, improving system integrations, and building efficient web solutions. I’m proactive, adaptable, and deliver quality work.",
+    "I'm a DevOps-focused Software Engineer with extensive hands-on experience in CI/CD automation, Docker, GitLab CI, Jenkins, and cloud deployments. I’ve successfully built production applications using the MERN stack and FastAPI. I’m continuously advancing my skills in cloud, DevSecOps, and platform engineering, while streamlining workflows, enhancing delivery pipelines, and building reliable, scalable systems.",
   resume:
-    "https://drive.google.com/file/d/13uNoXbRYTVMGP3m19b7pA8A6wlcmJfe_/view?usp=sharing",
+    "https://drive.google.com/file/d/1xxdEgU4-6rXBni9XOgAq1tTrli-FeK5F/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/md-mohsin-raja-628370244/",
   github: "https://github.com/MohsinKing2002",
   leetcode: "https://leetcode.com/u/MohsinKing2002/",
@@ -21,28 +21,81 @@ export const skills = [
     title: "DevOps",
     skills: [
       {
-        name: "Gitlab CI/CD",
+        name: "GitLab CI/CD",
         image: require("../images/skills/devops/Gitlab.png"),
       },
       {
-        name: "Docker",
-        image: require("../images/skills/devops/Docker.png"),
+        name: "GitHub Actions",
+        image: require("../images/skills/devops/github-act.png"),
       },
       {
         name: "Jenkins",
         image: require("../images/skills/devops/Jenkins.png"),
       },
       {
-        name: "Groovy",
-        image: require("../images/skills/devops/Groovy.png"),
+        name: "Docker",
+        image: require("../images/skills/devops/Docker.png"),
       },
       {
-        name: "Shell Script",
+        name: "AWS",
+        image: require("../images/skills/devops/aws.png"),
+      },
+      {
+        name: "Ansible",
+        image: require("../images/skills/devops/ansible.png"),
+      },
+      {
+        name: "Tyk API-Gateway",
+        image: require("../images/skills/devops/tyk.png"),
+      },
+      {
+        name: "SonarQube",
+        image: require("../images/skills/devops/SQ.png"),
+      },
+      {
+        name: "Shell Scripting",
         image: require("../images/skills/devops/Shell.png"),
       },
       {
-        name: "Sonarqube",
-        image: require("../images/skills/devops/SQ.png"),
+        name: "Nginx",
+        image: require("../images/skills/devops/nginx.png"),
+      },
+      {
+        name: "YAML",
+        image: require("../images/skills/devops/yaml.png"),
+      },
+    ],
+  },
+  {
+    title: "Backend & DB",
+    skills: [
+      {
+        name: "Node Js",
+        image: require("../images/skills/backend/node.png"),
+      },
+      {
+        name: "Express Js",
+        image: require("../images/skills/backend/express.png"),
+      },
+      {
+        name: "FastAPI",
+        image: require("../images/skills/backend/fast_api.png"),
+      },
+      {
+        name: "Python",
+        image: require("../images/skills/backend/python.png"),
+      },
+      {
+        name: "MongoDB",
+        image: require("../images/skills/backend/mongo.png"),
+      },
+      {
+        name: "PostgreSQL",
+        image: require("../images/skills/backend/postgresql.png"),
+      },
+      {
+        name: "REST APIs",
+        image: require("../images/skills/backend/rest.png"),
       },
     ],
   },
@@ -58,83 +111,25 @@ export const skills = [
         image: require("../images/skills/frontend/next.png"),
       },
       {
-        name: "Expo",
-        image: require("../images/skills/cross/expo.png"),
+        name: "Vue Js",
+        image: require("../images/skills/frontend/vue.png"),
+      },
+      {
+        name: "Redux Toolkit",
+        image: require("../images/skills/frontend/redux.png"),
+      },
+      {
+        name: "Tailwind CSS",
+        image: require("../images/skills/frontend/tailwind.png"),
+      },
+      {
+        name: "Ant Design",
+        image: require("../images/skills/frontend/antd.png"),
       },
       {
         name: "Bootstrap",
         image: require("../images/skills/frontend/bootstrap.jpg"),
       },
-      {
-        name: "Tailwind Css",
-        image: require("../images/skills/frontend/tailwind.png"),
-      },
-    ],
-  },
-  {
-    title: "Backend & DB",
-    skills: [
-      {
-        name: "Node Js",
-        image: require("../images/skills/backend/node.png"),
-      },
-      {
-        name: "Express Js",
-        image: require("../images/skills/backend/express.png"),
-      },
-      // {
-      //   name: "Flask",
-      //   image: require("../images/skills/backend/flask.png"),
-      // },
-      {
-        name: "MySQL",
-        image: require("../images/skills/backend/mysql.png"),
-      },
-      {
-        name: "MongoDB",
-        image: require("../images/skills/backend/mongo.png"),
-      },
-      {
-        name: "Redux",
-        image: require("../images/skills/frontend/redux.png"),
-      },
-    ],
-  },
-  {
-    title: "Programming",
-    skills: [
-      {
-        name: "C/C++",
-        image: require("../images/skills/cross/cpp.png"),
-      },
-      {
-        name: "JavaScript",
-        image: require("../images/skills/frontend/js.png"),
-      },
-      {
-        name: "TypeScript",
-        image: require("../images/skills/frontend/Ts.png"),
-      },
-      {
-        name: "Data Structures",
-        image: require("../images/achievements/lc/DS_1.png"),
-      },
-      {
-        name: "Algorithms",
-        image: require("../images/achievements/lc/algorithm_2.png"),
-      },
-      {
-        name: "Java",
-        image: require("../images/skills/cross/java.png"),
-      },
-      // {
-      //   name: "HTML",
-      //   image: require("../images/skills/frontend/html.png"),
-      // },
-      // {
-      //   name: "CSS",
-      //   image: require("../images/skills/frontend/css.png"),
-      // },
     ],
   },
   {
@@ -149,16 +144,20 @@ export const skills = [
         image: require("../images/skills/others/github.png"),
       },
       {
+        name: "GitLab",
+        image: require("../images/skills/devops/Gitlab.png"),
+      },
+      {
         name: "Linux",
         image: require("../images/skills/others/linux.png"),
       },
       {
-        name: "VS Code",
-        image: require("../images/skills/others/vs.jpg"),
-      },
-      {
         name: "Postman",
         image: require("../images/skills/others/postman.png"),
+      },
+      {
+        name: "VS Code",
+        image: require("../images/skills/others/vs.jpg"),
       },
       {
         name: "Canva",
@@ -167,6 +166,31 @@ export const skills = [
       {
         name: "Figma",
         image: require("../images/skills/others/figma.png"),
+      },
+    ],
+  },
+  {
+    title: "Programming",
+    skills: [
+      {
+        name: "JavaScript",
+        image: require("../images/skills/frontend/js.png"),
+      },
+      {
+        name: "TypeScript",
+        image: require("../images/skills/frontend/Ts.png"),
+      },
+      {
+        name: "Python",
+        image: require("../images/skills/backend/python.png"),
+      },
+      {
+        name: "C/C++",
+        image: require("../images/skills/cross/cpp.png"),
+      },
+      {
+        name: "Go",
+        image: require("../images/skills/others/go.png"),
       },
     ],
   },
