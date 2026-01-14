@@ -3,6 +3,9 @@ name: Deploy Portfolio Applicaton to Github pages.
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-application:
     runs-on: ubuntu-latest
