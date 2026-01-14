@@ -22,6 +22,10 @@ jobs:
 
       - name: Build Applicaton
         run: CI=false npm run build
+        env:
+          REACT_APP_EMAIL_SERVICE_ID: ${{ secrets.REACT_APP_EMAIL_SERVICE_ID }}
+          REACT_APP_EMAIL_TEMPLATE_ID: ${{ secrets.REACT_APP_EMAIL_TEMPLATE_ID }}
+          REACT_APP_EMAIL_PUBLIC_KEY: ${{ secrets.REACT_APP_EMAIL_PUBLIC_KEY }}
 
       - name: Upload the Artifacts
         uses: actions/upload-artifact@v4
