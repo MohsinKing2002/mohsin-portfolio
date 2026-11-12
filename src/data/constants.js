@@ -482,355 +482,180 @@ export const EmailJs = {
   public_key: process.env.REACT_APP_EMAIL_PUBLIC_KEY,
 };
 
-// ** TODO **: add devops project, and refactor all.
-//In project's have to fix the description
 export const projects = [
-  /*
-  //taskfollow
+  // CloudProfile – DevOps + AI
   {
     id: 0,
-    title: "TaskFollow",
-    date: "Apr 2023 - May 2024",
+    title: "CloudProfile",
+    date: "Nov 2025 - Dec 2025",
     description:
-      "TaskFollow enhances customer-business engagement by allowing businesses to manage tasks and related milestones, assign them to team members, and keep customers updated. Customers can monitor these activities on the platform. For the MVP launch, I redesigned the website, developed team member functionalities, fixed bugs, improved processing time, and added chat features for seamless communication between businesses and customers.",
-    image: require("../images/projects/taskfollow.png"),
+      "Architected, developed and deployed a full-stack AI web application powered by a Retrieval-Augmented Generation (RAG) pipeline using LangChain, Groq LLM, and a Vector Database—complete with document text-splitting and chunk embeddings—to act as a context-aware project assistant. On the application side, I engineered a secure REST API backend featuring JWT authentication and AWS S3 pre-signed URLs for safe user avatar uploads, paired with a fast, responsive frontend utilizing state management, dynamic routing, and lazy loading. Finally, I automated the entire AWS cloud infrastructure using Terraform, containerized the services with Docker, and orchestrated deployment inside a custom Kubernetes namespace on EC2, securing custom GoDaddy domain traffic with SSL/TLS certificates via Certbot and OpenSSL.",
+    image: require("../images/projects/cloudprofile.png"),
     tags: [
-      "Node Js",
-      "React Js",
-      "Next Js",
-      "Express Js",
-      "Mongo DB",
-      "Twillio CSS",
-      "Antd",
-      "Tailwind",
-      "Redux",
-      "Rest APIs",
-      "Nodemailer",
+      "TypeScript",
+      "React",
+      "Node",
+      "MongoDB",
+      "RAG",
+      "LangChain",
+      "Vector DB",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
     ],
-    category: "web app",
-    github: "https://github.com/AAbdelraouf/TaskFollow_web",
-    webapp: "https://taskfollow.net/",
-    member: [
-      {
-        name: "Md Mohsin Raja",
-        img: require("../images/mohsin.png"),
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-      {
-        name: "Asif Akram",
-        img: require("../images/teams/asifDa.jpeg"),
-        linkedin: "https://www.linkedin.com/in/asif-akram-b63099145/",
-        github: null,
-      },
-      {
-        name: "Tohidujaman Hoque",
-        img: require("../images/teams/tj.jpeg"),
-        linkedin: "https://www.linkedin.com/in/tohidujjaman-hoque/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    category: "devops",
+    github: "https://github.com/MohsinKing2002/CloudProfile",
+    webapp: "https://cloudprofile.mohsin.asif-dev.site",
   },
-  
-  //sitemaster
+
+  // Sociogram – DevOps CI/CD
   {
     id: 1,
-    title: "SiteMaster APK",
-    date: "Aug 2023 - Dec 2023",
+    title: "Book Management System",
+    date: "September 2026",
     description:
-      "SiteMaster APK, built with Expo React Native, monitors construction data including site creation, material usage, labor details, and vendor transactions. For the MVP, I redesigned the app by continously collabrating with design team and enhanced features like editing site details, adding/uploading images, and visualizing payment and expenditure data through detailed graphs.",
-    image: require("../images/projects/sitemaster.png"),
+      "Built and deployed a full-stack Book Management application using GraphQL, Apollo Server, Node.js, React.js, Vite and Apollo Client. Designed a layered backend with Schema, Resolver, Service and Repository layers, implementing CRUD APIs, validation, centralized error handling and pagination. Built the frontend with GraphQL queries/mutations, Apollo cache management, optimistic updates and responsive UI. Implemented unit and integration testing for backend resolvers, services and failure scenarios. Containerized frontend/backend using Docker, multi-stage builds and Docker Compose. Built GitHub Actions CI/CD to build and push versioned Docker images to Docker Hub and deploy to Render using deployment hooks with deployment-status polling. Used an AI-native workflow with ChatGPT for architecture, implementation, debugging and code review, while validating and testing AI-assisted code.",
+    image: require("../images/projects/bms.png"),
     tags: [
-      "React Native",
-      "Expo",
-      "React Js",
-      "Playstore",
-      "React Native Paper",
-      "Cross Platform",
-      "Tailwind CSS",
+      "React",
+      "Node",
+      "GraphQL",
+      "Apollo",
+      "Docker",
+      "Docker Compose",
+      "GitHub Actions",
+      "CI/CD",
+      "Unit & Integration Testing",
+      "Render",
     ],
-    category: "android app",
-    github: null,
-    webapp:
-      "https://play.google.com/store/apps/details?id=com.sitemaster.sitemasterapp&pcampaignid=web_share",
-    member: [
-      {
-        name: "Md Mohsin Raja",
-        img: require("../images/mohsin.png"),
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-      {
-        name: "Sushobhan Mahato",
-        img: require("../images/teams/sm.jpeg"),
-        linkedin: "https://www.linkedin.com/in/sushobhan-mahato-4026b121b/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    category: "devops",
+    github:
+      "https://github.com/MohsinKing2002/graphql-production-grade-book-management",
+    webapp: "https://graphql-client-1-0-0.onrender.com",
   },
 
-  //crud app
-  {
-    id: 5,
-    title: "CRUD App",
-    date: "Aug 2022",
-    description:
-      "This MERN stack application provides complete CRUD functionalities for user profiles, allowing users to create, read, update, and delete their profiles while viewing others'. Built with Redux, Axios, and React-Bootstrap, it ensures smooth data handling and a sleek interface. JWT authentication secures user identity throughout the app.",
-    image: require("../images/projects/crud.png"),
-    tags: [
-      "Node Js",
-      "React Js",
-      "Mongo DB",
-      "Express Js",
-      "Redux/Redux-toolkit",
-      "Bootstrap",
-      "React-Bootstrap",
-      "Rest APIs",
-    ],
-    category: "web app",
-    github: "https://github.com/MohsinKing2002/MERN-CRUD",
-    webapp: null,
-  },
-
-  //movieflix
-  {
-    id: 12,
-    title: "MovieFlix",
-    date: "Mar 2023 - Apr 2023",
-    description:
-      "MovieFlix, a MERN stack website, allows users to browse TV shows and movies, sourced from The Movie Database (TMDb). Users can sign up, log in, like movies, and add them to a 'Watch Later' list. The platform supports movie searches and video playback, providing a seamless and engaging entertainment experience.",
-    image: require("../images/projects/movie.png"),
-    tags: [
-      "Node Js",
-      "Express Js",
-      "React Js",
-      "Mongo DB",
-      "Redux",
-      "JWT Auth",
-      "TMDb API",
-      "Bootstrap",
-      "React-Bootstrap",
-      "Video Player",
-    ],
-    category: "web app",
-    github: "https://github.com/MohsinKing2002/MovieFlix",
-    webapp: "https://mk-movieflix.netlify.app/",
-  },
-  */
-
-  //diesease prediction
+  // SiteMaster APK – Cross-platform
   {
     id: 2,
-    title: "Disease Prediction",
+    title: "User Management API",
+    date: "October 2026",
+    description:
+      "Built and deployed a production-oriented User Management REST API using Python and FastAPI, implementing CRUD operations for creating, retrieving, updating, and deleting users. Used SQLAlchemy ORM for database operations and Pydantic schemas for request validation and structured API responses. Implemented duplicate-email handling, input validation, and appropriate HTTP error responses. Managed database schema evolution using Alembic migrations and wrote automated API tests with Pytest and FastAPI TestClient. Added environment-based configuration with validation, Docker containerization, and deployment on Render. Configured SQLite persistence for the deployed container environment. This project demonstrates hands-on experience in REST API development, backend engineering, database management, API testing, Docker, CI/CD fundamentals, and cloud deployment.",
+    image: require("../images/projects/ums.png"),
+    tags: [
+      "Python",
+      "FastAPI",
+      "REST API",
+      "SQLAlchemy",
+      "Alembic",
+      "Pydantic",
+      "SQLite",
+      "Pytest",
+      "Docker",
+      "Render",
+    ],
+    category: "web",
+    github: "https://github.com/MohsinKing2002/fastapi-user-management",
+    webapp: "https://fastapi-user-management-6r75.onrender.com/docs",
+  },
+
+  // Disease Prediction – ML + Full Stack
+  {
+    id: 3,
+    title: "Disease Prediction System",
     date: "Feb 2024 - Jun 2024",
     description:
-      "The Disease Prediction System is a website designed to predict diseases based on selected symptoms. Using Flask and models like Naive Bayes, Random Forest, and SVC, the system processes symptoms and predicts the likely disease, with the final output determined by the mode of predictions. Built with React.js and Tailwind CSS, this was my final year project, showcasing advanced machine learning integration",
+      "A full-stack web application that predicts diseases based on user-selected symptoms. Built using Flask with ML models (Naive Bayes, Random Forest, SVC) and a React frontend. Final predictions are derived using ensemble logic.",
     image: require("../images/projects/dp.png"),
     tags: [
       "React Js",
-      "Tailwind CSS",
       "Flask",
-      "Pickle",
       "Python",
       "Machine Learning",
-      "Flowbite UI",
-      "Rest APIs",
+      "Tailwind CSS",
+      "REST APIs",
     ],
-    category: "web app",
+    category: "full-stack",
     github: "https://github.com/MohsinKing2002/Disease-Prediction",
     webapp: "https://mk-dp.netlify.app/",
-    member: [
-      {
-        name: "Md Mohsin Raja",
-        img: require("../images/mohsin.png"),
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-      {
-        name: "SK Asif",
-        img: require("../images/teams/sk.jpeg"),
-        linkedin: "https://www.linkedin.com/in/sk-asif-12baa820b/",
-        github: null,
-      },
-    ],
   },
 
-  //quick shop
+  // Burger King – Full Stack MERN
   {
-    id: 11,
-    title: "QuickShop",
-    date: "June 2024 - Jul 2024",
-    description:
-      "The Shopping App, built with React Native (Expo) and Tailwind CSS, utilizes the Fake Store API to provide users with a seamless shopping experience. On the home page, users can browse a list of different items, search for products, and explore categories. Clicking on an item opens its detailed page, showcasing product descriptions, prices, and reviews, as well options like Add to cart and Order now. User can Order items etc.",
-    image: require("../images/projects/shopping.jpeg"),
-    tags: [
-      "React Native",
-      "Expo",
-      "UI/UX",
-      "Async Storage",
-      "FakeStore API",
-      "Tailwind Css",
-      "React Native Paper",
-      "Cross Platform",
-    ],
-    category: "android app",
-    github: "https://github.com/MohsinKing2002/Expo-Shopping-App",
-    webapp: "https://www.youtube.com/watch?v=EjQwa7wajy8&t=31s",
-  },
-
-  //connectify
-  {
-    id: 10,
-    title: "Connectify",
-    date: "Jun 2024 - Jul 2024",
-    description:
-      "Connectify is a React Native (Expo) app enhanced with Tailwind CSS and custom APIs, offering a seamless social media experience. It includes six screens: Home:- where users see posts from those they follow and suggested users. Explore:- for searching users or posts, viewing trending posts, and top profiles. Create:- Post, allowing users to create and preview new posts. Account:- displaying user details, followers, following, and personal posts. Conversations:- listing users they’ve chatted with. and Chatting:- showing detailed chat history with selected users.",
-    image: require("../images/projects/connect.jpeg"),
-    tags: [
-      "React Native",
-      "Expo",
-      "UI/UX",
-      "Data APIs",
-      "Tailwind Css",
-      "React Native Paper",
-      "Cross Platform",
-    ],
-    category: "android app",
-    github: "https://github.com/MohsinKing2002/Connectify",
-    webapp: "https://www.youtube.com/watch?v=bihd86RLdhY",
-  },
-
-  //burger king
-  {
-    id: 3,
+    id: 4,
     title: "Burger King",
     date: "Nov 2022 - Dec 2022",
     description:
-      "Burger King is a full-stack MERN application. That allow users to browse a list of burger menus, add items to the cart, select a delivery address, and choose a payment method (cash on delivery or online payment via Razorpay, UPI, or card). Integrated with Google Auth for secure login, this app offers a seamless online ordering experience.",
+      "A full-stack MERN food ordering application with cart management, secure authentication, and online payments. Integrated Razorpay for UPI/card payments and Google OAuth for authentication.",
     image: require("../images/projects/burger.png"),
     tags: [
       "React Js",
-      "Mongo DB",
       "Node Js",
       "Express Js",
-      "Redux/Redux-toolkit",
-      "Google Authentication",
-      "Rest APIs",
+      "Mongo DB",
+      "Redux Toolkit",
+      "Razorpay",
+      "Google Auth",
     ],
-    category: "web app",
+    category: "full-stack",
     github: "https://github.com/MohsinKing2002/BurgerKing",
     webapp: null,
   },
 
-  //funtastic v gram
+  // Social Media App – Full Stack + Realtime
   {
-    id: 4,
+    id: 5,
     title: "Social Media App",
     date: "Sep 2022 - Oct 2022",
     description:
-      "FuntasticVgram is a web application, that enables users to create, read, update, and delete posts with media uploads, likes, and comments. It features a responsive UI and robust security with bcrypt.js for password hashing and JWT for authentication. Cloudinary handles media storage, while Socket.io powers group and 1v1 chat functionalities. Technologies used include Node.js, Express.js, React.js, MongoDB, Redux, Redux-toolkit, and Bootstrap.",
+      "A full-stack social media platform with post CRUD, media uploads, likes, comments, and real-time chat. Implemented JWT authentication, bcrypt security, Cloudinary for media storage, and Socket.io for 1:1 and group chat.",
     image: require("../images/projects/social.png"),
     tags: [
       "React Js",
-      "Mongo DB",
       "Node Js",
       "Express Js",
-      "Redux/Redux-toolkit",
-      "Rest APIs",
-      "React-Bootstrap",
-      "Bootstrap",
+      "Mongo DB",
+      "JWT",
+      "Socket.io",
+      "Cloudinary",
     ],
-    category: "web app",
+    category: "full-stack",
     github: "https://github.com/MohsinKing2002/mk-funtasticVgram",
     webapp: null,
   },
 
-  //quiz app
+  // Connectify – Cross-platform Social App
   {
     id: 6,
-    title: "Quiz App",
-    date: "Feb 2024",
+    title: "Connectify",
+    date: "Jun 2024 - Jul 2024",
     description:
-      "The Quiz App, developed with React Native (Expo), Tailwind Css and Open Trivia DB API, allows users to enter their name, select the number of questions, difficulty level, and category before starting the quiz. Users are presented with multiple-choice questions based on their selections and can choose to answer or skip. After all questions are visited, a result page displays the user's name, total questions, answered questions, skipped questions, and total marks scored.",
-    image: require("../images/projects/quiz.png"),
-    tags: [
-      "React Native",
-      "Expo",
-      "Type Script",
-      "Trivia API",
-      "Tailwind Css",
-      "React Native Paper",
-      "Cross Platform",
-    ],
-    category: "android app",
-    github: "https://github.com/MohsinKing2002/TS_Quizzy",
-    webapp: null,
+      "A cross-platform social media mobile app built with React Native (Expo). Features include post feeds, user discovery, profile management, and real-time chat with a clean, modern UI.",
+    image: require("../images/projects/connect.jpeg"),
+    tags: ["React Native", "Expo", "Cross Platform", "UI/UX", "REST APIs"],
+    category: "mobile",
+    github: "https://github.com/MohsinKing2002/Connectify",
+    webapp: "https://www.youtube.com/watch?v=bihd86RLdhY",
   },
 
-  // code help
+  // QuickShop – Cross-platform E-commerce
   {
     id: 7,
-    title: "Education App",
-    date: "Jan 2023",
+    title: "QuickShop",
+    date: "Jun 2024 - Jul 2024",
     description:
-      "Code Help Clone, built with React Native (Expo), features a captivating landing page with intuitive navigation and a smooth bottom header for enhanced user engagement. It includes a comprehensive student database managing user details like images, names, emails, and enrolled courses. Additionally, the app showcases a course database with rich content, banner images, and detailed course descriptions, providing users with a thorough overview of available courses.",
-    image: require("../images/projects/codehelp.jpeg"),
+      "A cross-platform shopping application built with React Native (Expo) using the Fake Store API. Includes product listing, search, category filtering, cart management, and local storage.",
+    image: require("../images/projects/shopping.jpeg"),
     tags: [
       "React Native",
       "Expo",
-      "React Js",
-      "Data API",
-      "Axios",
-      "UI/UX",
-      "CSS",
-      "React Navigation",
+      "FakeStore API",
+      "Async Storage",
+      "Tailwind CSS",
     ],
-    category: "android app",
-    github: "https://github.com/MohsinKing2002/codeHelp",
-    webapp: "https://expo.dev/@mohsinking2002/online-education-app",
-  },
-
-  //crypto king
-  {
-    id: 8,
-    title: "Crypto App",
-    date: "Jan 2023",
-    description:
-      "Crypto App, built with React.js and Material-UI, provides users with real-time cryptocurrency data from the CoinGecko API. Users can view coins ranked by popularity, track exchanges, and analyze 24-hour data on profit/loss and market captures, all within a single, streamlined application. Chart Js enhances the UI for a visually appealing experience.",
-    image: require("../images/projects/crypto.png"),
-    tags: [
-      "React Js",
-      "Axios",
-      "Materail UI",
-      "React Icons",
-      "Realtime Data",
-      "Crypto API",
-    ],
-    category: "web app",
-    github: "https://github.com/MohsinKing2002/Crypto-King",
-    webapp: "https://mk-cryptoking.netlify.app/",
-  },
-
-  //note app
-  {
-    id: 9,
-    title: "Note App",
-    date: "Aug 2022 - Sep 2022",
-    description:
-      "The Note App, developed with the MERN stack, offers users CRUD functionalities such as registration, profile updates, and deletion. It features a responsive and interactive UI, allowing users to create, edit, and delete their notes. Additionally, users can browse friends' notes if they are connected within the app. Security is ensured with JWT authentication and bcrypt for password hashing.",
-    image: require("../images/projects/note.png"),
-    tags: [
-      "Node Js",
-      "Express Js",
-      "React Js",
-      "Mongo DB",
-      "JWT Auth",
-      "CRUD Operations",
-      "Bootstrap",
-      "React-Bootstrap",
-    ],
-    category: "web app",
-    github: "https://github.com/MohsinKing2002/mern-note-app",
-    webapp: "https://mk-mern-note-app.herokuapp.com",
+    category: "mobile",
+    github: "https://github.com/MohsinKing2002/Expo-Shopping-App",
+    webapp: "https://www.youtube.com/watch?v=EjQwa7wajy8",
   },
 ];

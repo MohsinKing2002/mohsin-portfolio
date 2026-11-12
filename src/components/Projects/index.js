@@ -31,16 +31,33 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
+          {toggle === "devops" ? (
+            <ToggleButton
+              active
+              value="devops"
+              onClick={() => setToggle("devops")}
+            >
+              DevOps
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="web app" onClick={() => setToggle("devops")}>
+              DevOps
+            </ToggleButton>
+          )}
+          <Divider />
           {toggle === "web app" ? (
             <ToggleButton
               active
               value="web app"
-              onClick={() => setToggle("web app")}
+              onClick={() => setToggle("full-stack")}
             >
               WEB APP'S
             </ToggleButton>
           ) : (
-            <ToggleButton value="web app" onClick={() => setToggle("web app")}>
+            <ToggleButton
+              value="web app"
+              onClick={() => setToggle("full-stack")}
+            >
               WEB APP'S
             </ToggleButton>
           )}
@@ -49,14 +66,14 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton
               active
               value="android app"
-              onClick={() => setToggle("android app")}
+              onClick={() => setToggle("mobile")}
             >
               CROSS APP'S
             </ToggleButton>
           ) : (
             <ToggleButton
               value="android app"
-              onClick={() => setToggle("android app")}
+              onClick={() => setToggle("mobile")}
             >
               CROSS APP'S
             </ToggleButton>
